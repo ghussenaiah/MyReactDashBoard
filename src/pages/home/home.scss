@@ -1,0 +1,17 @@
+.home {
+
+    background-color: skyblue;
+
+    display: flex;
+
+    .homecontainer {
+        flex: 9;
+
+        .widgets {
+            display: flex;
+            padding-left: 20px;
+            gap: 20px;
+        }
+    }
+}
+
