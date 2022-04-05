@@ -3,8 +3,11 @@
 import Sidebar from "../../components/sidebar/Sidebar";
 import Navbar from "../../components/navbar/Navbar";
 import Widgets from "../../components/widgets/Widgets";
+import CircularProgress from '@mui/material/CircularProgress';
 
 import "./home.scss";
+import Featured from "../../components/featured/Featured";
+import Charts from "../../components/charts/Charts";
 
 const Home = () => {
   return (
@@ -18,6 +21,19 @@ const Home = () => {
    <Widgets/>
    <Widgets/>
       </div>
+
+  <div className="charts">
+
+    <Featured/>
+    <Charts/>
+  
+  </div>
+
+
+ 
+
+
+
     </div>
     </div>
   )
