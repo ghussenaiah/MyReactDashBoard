@@ -1,11 +1,11 @@
-
 .sidebar {
 
 
-    background-color: orchid;
+    background-color: orchid; // sdasgdhasd
     flex: 1;
     border-right: 0.5px solid lightgray;
     min-height: 100vh;
+
     .top {
 
         height: 50px;
@@ -20,7 +20,7 @@
 
             font-size: 20px;
             font-weight: bold;
-            color:red
+            color: red
         }
     }
 
@@ -63,25 +63,24 @@
 
                 .icon {
 
-                   
+
                     font-size: 18px;
-                    color:darkviolet;
+                    color: darkviolet;
                 }
 
                 span {
 
-                    
+
                     font-size: 13px;
                     font-weight: 600;
                     color: gray
-        
+                }
+
+
             }
 
-
         }
-
     }
-}
 
     .bottom {
 
@@ -99,14 +98,16 @@
             cursor: pointer;
             margin: 5px;
 
-            &:nth-child(1){
+            &:nth-child(1) {
                 background-color: #7451f8;
             }
-            &:nth-child(2){
-                background-color:khaki
+
+            &:nth-child(2) {
+                background-color: khaki
             }
-            &:nth-child(3){
-                background-color:darkblue
+
+            &:nth-child(3) {
+                background-color: darkblue
             }
 
         }

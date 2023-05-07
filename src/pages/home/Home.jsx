@@ -13,34 +13,34 @@ import Charts from "../../components/charts/Charts";
 const Home = () => {
   return (
     <div className="home">
-      <Sidebar/>
+      <Sidebar />
       <div className="homecontainer">
-      <Navbar/>
-<div className="widgets">
-   <Widgets/>
-   <Widgets/>
-   <Widgets/>
-   <Widgets/>
+        <Navbar />
+        <div className="widgets">
+          <Widgets />
+          <Widgets />
+          <Widgets />
+          <Widgets />
+        </div>
+
+        <div className="charts">
+
+          <Featured />
+          <Charts />
+
+        </div>
+
+        <div className="listContainer">
+          <div className="listTitle">Last Trasactions List</div>
+          <List />
+        </div>
+
+
+
+
+
+
       </div>
-
-  <div className="charts">
-
-    <Featured/>
-    <Charts/>
-  
-  </div>
-
-  <div className="listContainer">
-    <div className="listTitle">Last Trasactions List</div>
-    <List/>
-  </div>
-
-
- 
-
-
-
-    </div>
     </div>
   )
 }
